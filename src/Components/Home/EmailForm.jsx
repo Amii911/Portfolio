@@ -16,7 +16,7 @@ function EmailForm() {
 
     emailjs
       .send(serviceId, templateId, {
-        to_email: 'katzmansof@gmail.com',
+        to_email: 'aminat.bla@gmail.com',
         message: message,
         from_name: fromName,
         from_email: fromEmail,

@@ -1,5 +1,5 @@
 import React from "react"
-import About from "./About"
+import About from "../About/About"
 import Technologies from "../Technologies/Technologies"
 import Projects from "../Projects/Projects"
 
@@ -9,7 +9,7 @@ function Home(){
         <div>
             <About /> 
             <Technologies /> <br/>
-            <Projects />
+            <Projects/>
         </div>
     )
 }

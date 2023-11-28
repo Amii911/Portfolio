@@ -1,13 +1,253 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcc00; /* Happy yellow background */
+  padding: 10px 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; /* Rounded corners */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 10px; /* Rounded corners for links */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  background-color: #ffd700; /* Light yellow on hover */
+}
+
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+/* Add a happy bubble space effect to the technologies section */
+.technologies {
+  background: #ffcc00; /* Happy yellow background */
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.technologies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.technology {
+  margin: 10px;
+  position: relative;
+}
+
+.technology a {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+  background-color: #fff; /* White background for bubbles */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.technology img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.technology:hover a {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.technology:hover img {
+  transform: scale(1);
+}
+
+.title {
+  font-weight: bold;
+  letter-spacing: .2rem;
+  text-align: center;
+  color: #333;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcc00; /* Happy yellow background */
+  color: #333;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
+  bottom: 0;
+}
+
+.footer.hide {
+  transform: translateY(100%);
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  margin: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 40px;
+  width: 400px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow for a bubbly effect */
+  border-radius: 25px;
+  height: 750px;
+}
+
+.project-card h2 {
+  font-size: 1.5rem; /* Larger font size for a bubbly feel */
+}
+
+.project-card p {
+  font-size: 1.2rem;
+}
+
+.project-card a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Increased margin for a bubbly look */
+  background-color: var(--med-green);
+  color: var(--white);
+  border-radius: 20px; /* Rounder button */
+  padding: 12px 20px; /* Larger padding for a bubbly feel */
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.project-card a:hover {
+  background-color: var(--dark-green); /* Darker color on hover */
+}
+
+.project-card img {
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px auto; /* More margin for a bubbly look */
+  border-radius: 50%; /* Circular images for a bubbly feel */
+}
+
+.project-technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+span.project-technologies {
+  background-color: #ffd700; /* Happy yellow background */
+  color: var(--main-green);
+  border-radius: 10px; /* Rounder corners */
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Increased gap for a bubbly look */
+  margin-top: auto;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.buttons-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd700; /* Happy yellow background */
+  color: var(--main-green);
+  border-radius: 20px;
+  padding: 12px 20px;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  flex-basis: calc(50% - 5px);
+  max-width: calc(50% - 5px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttons-container a:hover {
+  background-color: #ffcc00; /* Lighter yellow on hover */
+  color: var(--dark-green);
+}
+
+a.live {
+  background-color: #ffd700; /* Happy yellow background */
+  color: var(--main-green);
+}
+
+a.view-case-study {
+  background-color: #ffd700; /* Happy yellow background */
+  color: var(--med-green);
+}
+
+a.view-case-study:hover {
+  background-color: #ffcc00; /* Lighter yellow on hover */
+  color: var(--dark-green);
 }

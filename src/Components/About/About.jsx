@@ -16,9 +16,3 @@ function About() {
 
 export default About
 
-/*
-TO DO:
-add picture in folder
-add resume in folder
-fix styling
-*/
