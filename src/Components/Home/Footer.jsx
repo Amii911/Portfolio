@@ -1,9 +1,11 @@
 import React from 'react'
-import ContactMe from './ContactMe'
+import Connect from './Connect'
+import './Footer.css'
 
 function Footer() {
   return (
     <div className="footer">
+      <Connect/>
     </div>
   )
 }
