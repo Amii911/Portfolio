@@ -16,7 +16,7 @@ function About(){
                     <h2>Full Stack Software Engineer</h2>
                     <h3>New York, NY </h3>
                     <p>Hello! I'm Aminat - I build things and enjoy creating user friendly applications.</p>
-                    <p>I am a Software Engineer with a passion for solving problems. In my quest for problems to solve I took the leap September 2022 and transitioned from being a paralegal to start my tech journey. Whether it's full stack applications or diverse creative projects, my background in logistics, organization, and customer service enables me to craft well-rounded solutions that consider every aspect of the development process.</p>  
+                    <p>I am a Software Engineer with a passion for solving problems. In my quest for problems to solve I took the leap September 2022 and transitioned from being a paralegal to start my tech journey. Whether it's full stack applications or diverse creative projects, my background in logistics, organization, and customer service enables me to craft well-rounded solutions that consider every aspect of the development process. In my free time, I love to hang out with friends/family, try new foods, play tennis, yoga, and help host Tech Gather in NYC!</p>  
                     <br/><br/><br/>
                     <a href={resume} download className="resume">Download My Resume</a><br/><br/><br/>
                 </div>
