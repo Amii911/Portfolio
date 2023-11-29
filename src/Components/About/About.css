@@ -48,7 +48,7 @@
 .about-blurb h3 {
     font-size: 26px;
     font-weight: 400;
-    color: var(--main-orange);
+    color: var(--main);
     margin-top: -10px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .resume{
-    background-color: var(--med-orange);
+    background-color: var(--med);
     border-radius: 15px;
     text-decoration: none;
     color: var(--white);
