@@ -12,9 +12,6 @@ function NavBar() {
     setIsNavOpen(!isNavOpen);
   };
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
 
   return (
     <nav className={`header ${darkMode ? 'dark-mode' : ''}`}>
@@ -31,9 +28,6 @@ function NavBar() {
         <Link to="/contactme" element={<ContactMe />} >
           contact me
         </Link>
-      </div>
-      <div className="dark-mode-toggle" onClick={toggleDarkMode}>
-        {darkMode ? 'Light Mode' : 'Dark Mode'}
       </div>
     </nav>
   );

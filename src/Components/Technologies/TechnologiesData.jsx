@@ -3,6 +3,7 @@ const PY_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pytho
     const CSS_LOGO = "https://icons-for-free.com/download-icon-css3-1331550887274886564_512.png"
     const JS_LOGO = "https://logosdownload.com/logo/javascript-logo-big.png"
     const REACT_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+    const REDUX_LOGO = "https://cdn.worldvectorlogo.com/logos/redux.svg"
     const GIT_LOGO = "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
     const SQL_LOGO = "https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png"
     const SQLALCHEMY_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/SQLAlchemy.svg/640px-SQLAlchemy.svg.png"
@@ -14,6 +15,7 @@ const PY_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pytho
     const CSS_LINK = "https://www.w3schools.com/css/default.asp"
     const JS_LINK = "https://www.w3schools.com/js/default.asp"
     const REACT_LINK = "https://react.dev/"
+    const REDUX_LINK = "https://redux.js.org/"
     const GIT_LINK = "https://git-scm.com/"
     const SQL_LINK = "https://www.w3schools.com/sql/sql_quickref.asp"
     const SQLALCHEMY_LINK = "https://www.sqlalchemy.org/"
@@ -50,6 +52,11 @@ const PY_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pytho
             logo: REACT_LOGO,
             link: REACT_LINK,
             alt: "React",
+        },
+        {
+            logo: REDUX_LOGO,
+            link: REDUX_LINK,
+            alt: "Redux",
         },
         {
             logo: FLASK_LOGO,

@@ -1,6 +1,7 @@
 import React from "react"
 import ProjectsData from "./ProjectsData"
 import { Link } from "react-router-dom"
+import "./Project.css" 
 
 
 function Projects() {

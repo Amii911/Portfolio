@@ -1,97 +1,90 @@
 const ProjectsData = [
     {
       name: "Restroom Radar NYC",
-      summary: "A social platform dedicated to illustrating user's life accomplishments via milestones aimed at displaying a user's 'full life' in an effort to understand their journey and development better. ",
-      stack: "React front-end, Python backend with Flask API. Websocket.io integration for instant user updates. Bcrypt for user authentication and authorization. UseContext global state handling.",
-      github: "https://github.com/sofiakatzman/Milestones",
-      walkthrough: "https://www.youtube.com/watch?v=23grUYcH2Qw",
-      technologies: ["JavaScript", "React", "Python", "Flask", , "Gunicorn", "HTML/CSS", "WebSocket.io", "Formik", "Bycrypt"],
+      summary: "Restroom Radar NYC is your ultimate companion for seamless bathroom hunting across the bustling streets of New York City. ",
+      stack: "React front-end, Python backend with Flask API. Bcrypt for user authentication and authorization. Redux global state handling.",
+      github: "https://github.com/Amii911/Restroom-Radar-NYC",
+      walkthrough: "https://youtu.be/IGvnnkiywwo",
+      technologies: ["JavaScript", "React", "Python", "Flask", "HTML/CSS", "Redux", "Formik", "Bycrypt"],
       livedemo: false,
-      image: "https://media.istockphoto.com/id/1276686973/vector/continuous-line-drawing-champagne-bottle.jpg?s=612x612&w=0&k=20&c=Osd_Q4WO5IYQXDnWt64ym--WiEh_9mwgNO90ppAf-9s=",
+      image: "public/6374813fb48655918517f74cfb6de9c2.png",
       details: {
-        description: "Milestones is a social platform dedicated to illustrating users' life accomplishments via milestones. The platform aims to display users' 'full life' to help understand their journey and development better. The project features a React front-end and a Python backend with a Flask API. It also integrates Websocket.io for instant user updates and Bcrypt for user authentication and authorization. Global state handling is achieved using React's UseContext.",
+        description: "Restroom Radar NYC is your ultimate companion for seamless bathroom hunting across the bustling streets of New York City. Say goodbye to urgent searches and long restroom lines – our app employs cutting-edge technology to pinpoint the nearest accessible restrooms. With real-time updates and user-friendly navigation, Restroom Radar NYC ensures your comfort and convenience while exploring the city that never sleeps.",
         keyFeatures: [
           "Milestone Tracking: Users can add and track their life milestones and accomplishments.",
           "React Front-End: The platform's front-end is built using React for an interactive user experience.",
           "Python Backend: The backend is powered by Python and utilizes a Flask API for handling requests.",
-          "Websocket Integration: Websocket.io is integrated to provide instant user updates and interactions.",
           "User Authentication: Utilizes Bcrypt for secure user authentication and authorization.",
-          "Global State Handling: React's UseContext is employed for efficient global state management.",
-          "Technologies: The project employs JavaScript, React, Python, Flask, HTML, CSS, and Websocket.io."
+          "Global State Handling: Redux is employed for efficient global state management.",
+          "Technologies: The project employs JavaScript, React, Python, Flask, HTML, CSS, and Redux."
         ],
         technologyStack: [
           "Front-End: Built with React to offer a dynamic and interactive user interface.",
           "Back-End: Python backend with Flask API for handling server-side operations.",
           "User Authentication: Implements Bcrypt for secure user authentication and authorization.",
           "Global State Management: Leverages React's UseContext for efficient state management.",
-          "Technologies: Utilizes JavaScript, React, Python, Flask, HTML, CSS, and Websocket.io."
+          "Technologies: Utilizes JavaScript, React, Python, Flask, HTML, CSS, and Redux."
         ],
         achievements: [
-          "Created a social platform for tracking and displaying users' life milestones and accomplishments.",
-          "Incorporated React for an engaging and interactive front-end user experience.",
-          "Integrated Websocket.io to provide real-time updates and interactions for users."
+          "Created a social platform for tracking and sharing public restrooms in NYC.",
+          "Incorporated React for an engaging and interactive front-end user experience."
         ]
       },
       caseStudy: {
-        problem: "People often struggle with sharing their life accomplishments in a consolidated way.",
-        solution: "Milestones provides a platform where users can record and display their life milestones, creating a comprehensive timeline of their journey where others can learn about them in a more profound way.",
+        problem: "People often struggle with sharing findging public restrooms in NYC.",
+        solution: "Restroom Radar NYC provides a platform where users can record and reviews on public restrooms in NYC.",
         media: [
-          { type: "gif", url: "", alt: "Milestones Demo" }, //link project gifs here
+          { type: "gif", url: "", alt: "RR NYC demo" }, 
         ]}
     },
     {
       name: "Bloggin Blog",
-      summary: "A full-stack application designed to keep a record of walks, paths, and bunnies encountered.",
-      stack: "React front-end, Python backend with Flask API. Mobile and WebVersion available.",
-      github: "https://github.com/sofiakatzman/Bunny-Walks.git",
-      walkthrough: "https://www.youtube.com/watch?v=A9YwlcA_n5E",
-      technologies: ["JavaScript", "React", "Python", "Flask", "HTML/CSS"],
+      summary: "A React built application using create-react-app. Bloggin Blog is a space for users to share their story, speak their mind and even hang onto a memeory. ",
+      stack: "React front-end, JSON back-end",
+      github: "https://github.com/Amii911/bloggin-blog",
+      walkthrough: "https://youtu.be/2LukRw3nzuI",
+      technologies: ["JavaScript", "React", "HTML/CSS"],
       livedemo: false,
-      image: "https://img.freepik.com/premium-vector/easter-bunny-continuous-one-line-drawing-minimalist-hand-drawn-illustration-isolated-element-vector_593228-160.jpg",
+      image: "public/download.png",
       details: {
-        description: "BunnyWalks is a full-stack application designed to record walks, paths, and bunny encounters. The project features a React front-end and a Python backend with a Flask API. It offers both mobile and web versions for user convenience.",
+        description: "Bloggin Blog is a React application designed to record and share blogs amongst users.Create a beautiful blog today. Bloggin Blog is a space for users to share their story, speak their mind and even hang onto a memeory. Users are able to build, manage, and delete blogs easily with Bloggin Blog. Join millions today and create a blog with Bloggin Blog.",
         keyFeatures: [
-          "Walk Recording: Allows users to record details about their walks and bunny encounters.",
-          "Full-Stack Application: Features a React front-end and a Python backend with a Flask API.",
-          "Mobile and Web Versions: Provides both mobile and web versions for users to choose their preferred platform.",
-          "User-Friendly Interface: Offers a user-friendly and intuitive interface for recording walk information.",
-          "Technologies: The project utilizes JavaScript, React, Python, Flask, HTML, and CSS."
+          "Blog Recording: Allows users to record details about their encounters.",
+          "React Application: Features a React front-end and a JSON back-end.",
+          "User-Friendly Interface: Offers a user-friendly and intuitive interface for creating blogs.",
+          "Technologies: The project utilizes JavaScript, React, HTML, and CSS."
         ],
         technologyStack: [
           "Front-End: Built with React to provide an interactive and visually appealing user interface.",
-          "Back-End: Python backend with Flask API for handling server-side operations.",
-          "Mobile and Web Versions: Offers both mobile and web versions to cater to different user preferences.",
-          "User-Friendly Interface: Provides a user-friendly interface for recording and managing walk information.",
-          "Technologies: Employs JavaScript, React, Python, Flask, HTML, and CSS."
+          "User-Friendly Interface: Provides a user-friendly interface for recording and managing blogs.",
+          "Technologies: Employs JavaScript, React, HTML, and CSS."
         ],
         achievements: [
-          "Developed a versatile application for recording walks and bunny encounters.",
-          "Created an interactive and user-friendly front-end interface using React.",
-          "Implemented both mobile and web versions for enhanced user accessibility."
+          "Created an interactive and user-friendly front-end interface using React."
         ]
       }, 
       caseStudy: {
-        problem: "My neighbors often wanted to keep track of their walks and encounters with bunnies within our community, but lack a centralized platform for recording and viewing this information.",
-        solution: "BunnyWalks provides a full-stack application that allows users to log their walks, paths, and bunny encounters, providing a convenient way to organize and review their experiences.",
+        problem: "New creative way for end users to create a blog.",
+        solution: "Blogging Blog allows users to log their thoughts and encounters, providing a convenient way to organize and review their experiences.",
         media: [
-          { type: "image", url: "", alt: "BunnyWalks Solution" }, //link project gifs here
+          { type: "image", url: "", alt: "Blog Solution" },
         ]
       }
     },
     {
       name: "TransXceed",
-      summary: "A Command Line Interface Application designed to streamline the process of hiring and booking event staff.",
+      summary: "A Command Line Interface Application designed to streamline investments.",
       stack: "Python backend with SQLAlchemy database. No GUI; entirely designed using text and special characters. ",
-      github: "https://github.com/sofiakatzman/Event-Manager",
-      walkthrough: "https://www.youtube.com/watch?v=AS7z6d3M1Qc",
+      github: "https://github.com/Amii911/TransXceed",
+      walkthrough: "https://youtu.be/a6B-StFFslU",
       technologies: ["Python", "SQL", "SQLAlchemy", "CLI", "Alembic"],
       livedemo: false,
-      image: "https://media.istockphoto.com/id/1197573398/vector/continuous-one-line-drawing-clock-icon-with-doodle-handdrawn-style-on-white-background.jpg?s=612x612&w=0&k=20&c=9AqkHQ2FILkhU-M7mn3K-zDUX7-WX6NO93FoDSuThCc=",
+      image: "public/digital-wallet-linear-icon-thin-line-illustration-online-banking-transactions-cashless-payment-contour-symbol-isolated-outline-drawing-vector.jpg",
       details: {
-        description: "EventManager is a Command Line Interface (CLI) application designed to streamline the process of hiring and booking event staff. The project is built with a Python backend and utilizes the SQLAlchemy database library for efficient data management. It provides a text-based design for interacting with the application.",
+        description: "TransXceed is a Command Line Interface (CLI) application, it is a new way to track and view your investments. How exiting would it be to have a new system where you can create and delete these new investments? This application is a Command Line Interface allows users to query from a SQLAlchemy database of investments, users, and transactions. The database is set up with many-to-many relationships backrefered through the users table. Users can have many investments and users can have many transactions.The project is built with a Python backend and utilizes the SQLAlchemy database library for efficient transactions. It provides a text-based design for interacting with the application.",
         keyFeatures: [
           "CLI Application: Designed as a Command Line Interface (CLI) application for efficient text-based interactions.",
-          "Hiring and Booking: Streamlines the process of hiring and booking event staff.",
+          "Investments and Transactions: Streamlines the process of creating investments and viewing transactions.",
           "Python Backend: Features a Python backend for handling application logic and data management.",
           "SQLAlchemy Database: Utilizes SQLAlchemy for efficient management and querying of the database.",
           "Efficient Data Management: Employs Alembic for efficient database migrations.",
@@ -111,10 +104,10 @@ const ProjectsData = [
         ]
       }, 
       caseStudy: {
-        problem: "Event organizers often face challenges in efficiently booking and tracking event staff, leading to potential inefficiencies and miscommunications.",
-        solution: "EventManager simplifies the process of hiring and booking event staff through a CLI application, enabling organizers to manage staff-related tasks more effectively.",
+        problem: "TBD.",
+        solution: "TBD",
         media: [
-          { type: "image", url: "", alt: "EventManager Solution" },  //link project gifs here
+          { type: "image", url: "", alt: "TransXceed Solution" },  
         ]
       }
     }
