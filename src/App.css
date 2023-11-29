@@ -19,7 +19,7 @@ body {
 h1 {
     font-size: 34px;
     font-weight: bold;
-    color: var(--main-orange);
+    color: var(--main);
     font-kerning: none;
   }
 
