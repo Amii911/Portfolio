@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Nav.css'
-import ContactMe from './ContactMe';
-import Home from './Home';
-import Projects from '../Projects/Projects';
+import './Nav.css';
 
 function NavBar() {
   const [isNavOpen, setIsNavOpen] = useState(false)

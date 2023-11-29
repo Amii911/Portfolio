@@ -7,9 +7,9 @@ function Connect(){
     const GITHUB_LOGO = "https://pngimg.com/uploads/github/github_PNG80.png"
     const MEDIUM_LOGO = "https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png"
 
-    const LINKEDIN_URL = "https://www.linkedin.com/in/sofia-katzman/"
-    const GITHUB_LINK = "https://github.com/sofiakatzman"
-    const MEDIUM_LINK = "https://medium.com/@katzmansof"
+    const LINKEDIN_URL = "https://www.linkedin.com/in/a-adebayo/"
+    const GITHUB_LINK = "https://github.com/Amii911"
+    const MEDIUM_LINK = "https://medium.com/@bkcodergirl911"
 
     const contactLinks = { 
         linkedin : {
