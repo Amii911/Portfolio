@@ -1,4 +1,6 @@
 import restroom from "../../Assets/RRNYC.png"
+import blog from "../../Assets/BlogginB.png"
+import transaction from "../../Assets/TransXceed.jpg"
 
 const ProjectsData = [
     {
@@ -9,7 +11,7 @@ const ProjectsData = [
       walkthrough: "https://youtu.be/IGvnnkiywwo",
       technologies: ["JavaScript", "React", "Python", "Flask", "HTML/CSS", "Redux", "Formik", "Bycrypt"],
       livedemo: false,
-      image: {restroom},
+      image: restroom,
       details: {
         description: "Restroom Radar NYC is your ultimate companion for seamless bathroom hunting across the bustling streets of New York City. Say goodbye to urgent searches and long restroom lines – our app employs cutting-edge technology to pinpoint the nearest accessible restrooms. With real-time updates and user-friendly navigation, Restroom Radar NYC ensures your comfort and convenience while exploring the city that never sleeps.",
         keyFeatures: [
@@ -47,7 +49,7 @@ const ProjectsData = [
       walkthrough: "https://youtu.be/2LukRw3nzuI",
       technologies: ["JavaScript", "React", "HTML/CSS"],
       livedemo: false,
-      image: "public/download.png",
+      image: blog,
       details: {
         description: "Bloggin Blog is a React application designed to record and share blogs amongst users.Create a beautiful blog today. Bloggin Blog is a space for users to share their story, speak their mind and even hang onto a memeory. Users are able to build, manage, and delete blogs easily with Bloggin Blog. Join millions today and create a blog with Bloggin Blog.",
         keyFeatures: [
@@ -81,7 +83,7 @@ const ProjectsData = [
       walkthrough: "https://youtu.be/a6B-StFFslU",
       technologies: ["Python", "SQL", "SQLAlchemy", "CLI", "Alembic"],
       livedemo: false,
-      image: "https://www.vecteezy.com/vector-art/4926728-hand-drawn-doodle-digital-online-transaction-illustration-vector",
+      image: transaction,
       details: {
         description: "TransXceed is a Command Line Interface (CLI) application, it is a new way to track and view your investments. How exiting would it be to have a new system where you can create and delete these new investments? This application is a Command Line Interface allows users to query from a SQLAlchemy database of investments, users, and transactions. The database is set up with many-to-many relationships backrefered through the users table. Users can have many investments and users can have many transactions.The project is built with a Python backend and utilizes the SQLAlchemy database library for efficient transactions. It provides a text-based design for interacting with the application.",
         keyFeatures: [
