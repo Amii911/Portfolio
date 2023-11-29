@@ -11,9 +11,9 @@ function EmailForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    const serviceId = 'service_fud4mps'
-    const templateId = 'template_nljzs3b'
-    const userId = '5ZRcT36aMkhsknnQP'
+    const serviceId = ''
+    const templateId = ''
+    const userId = ''
 
     emailjs
       .send(serviceId, templateId, {
