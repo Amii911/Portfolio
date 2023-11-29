@@ -35,7 +35,7 @@ const ProjectsData = [
         ]
       },
       caseStudy: {
-        problem: "People often struggle with sharing findging public restrooms in NYC.",
+        problem: "People often struggle with findging public restrooms in NYC.",
         solution: "Restroom Radar NYC provides a platform where users can record and reviews on public restrooms in NYC.",
         media: [
           { type: "gif", url: "", alt: "RR NYC demo" }, 
