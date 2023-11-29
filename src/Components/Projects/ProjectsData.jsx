@@ -1,3 +1,5 @@
+import restroom from "../../Assets/RRNYC.png"
+
 const ProjectsData = [
     {
       name: "Restroom Radar NYC",
@@ -7,7 +9,7 @@ const ProjectsData = [
       walkthrough: "https://youtu.be/IGvnnkiywwo",
       technologies: ["JavaScript", "React", "Python", "Flask", "HTML/CSS", "Redux", "Formik", "Bycrypt"],
       livedemo: false,
-      image: "public/6374813fb48655918517f74cfb6de9c2.png",
+      image: {restroom},
       details: {
         description: "Restroom Radar NYC is your ultimate companion for seamless bathroom hunting across the bustling streets of New York City. Say goodbye to urgent searches and long restroom lines – our app employs cutting-edge technology to pinpoint the nearest accessible restrooms. With real-time updates and user-friendly navigation, Restroom Radar NYC ensures your comfort and convenience while exploring the city that never sleeps.",
         keyFeatures: [
@@ -79,7 +81,7 @@ const ProjectsData = [
       walkthrough: "https://youtu.be/a6B-StFFslU",
       technologies: ["Python", "SQL", "SQLAlchemy", "CLI", "Alembic"],
       livedemo: false,
-      image: "public/digital-wallet-linear-icon-thin-line-illustration-online-banking-transactions-cashless-payment-contour-symbol-isolated-outline-drawing-vector.jpg",
+      image: "https://www.vecteezy.com/vector-art/4926728-hand-drawn-doodle-digital-online-transaction-illustration-vector",
       details: {
         description: "TransXceed is a Command Line Interface (CLI) application, it is a new way to track and view your investments. How exiting would it be to have a new system where you can create and delete these new investments? This application is a Command Line Interface allows users to query from a SQLAlchemy database of investments, users, and transactions. The database is set up with many-to-many relationships backrefered through the users table. Users can have many investments and users can have many transactions.The project is built with a Python backend and utilizes the SQLAlchemy database library for efficient transactions. It provides a text-based design for interacting with the application.",
         keyFeatures: [
