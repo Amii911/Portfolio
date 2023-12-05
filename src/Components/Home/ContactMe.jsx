@@ -1,12 +1,12 @@
 import React from "react"
-// import EmailForm from "./EmailForm"
+import EmailForm from "./EmailForm"
 import "./ContactMe.css"
 
 function ContactMe(){
     return(
         <div className="contact">
         <h2 className="title">CONTACT ME</h2>
-        {/* <EmailForm /> */}
+        <EmailForm />
         </div>
     )
 }
