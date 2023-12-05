@@ -13,7 +13,7 @@ function EmailForm() {
 
     const serviceId = 'service_8w6ew6n'
     const templateId = 'template_xk7udic'
-    const userId = 'KCn-rDWXBti4PH3V2NExx'
+    const userId = 'QJqotmzAwpBZYS8Fe'
 
     emailjs
       .send(serviceId, templateId, {
