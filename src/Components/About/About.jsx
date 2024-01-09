@@ -1,7 +1,8 @@
 import React from "react"
 import './About.css'
 import headshot from '../../Assets/Aminat_Adebayo_Headshot.JPG'
-import resume from '../../Assets/Aminat_Resume.pdf'
+import resume from '../../Assets/Aminat_Adebayo_Resume.pdf'
+
 
 
 function About(){
